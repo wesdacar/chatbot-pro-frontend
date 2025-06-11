@@ -1,0 +1,27 @@
+{
+  "language": "nodejs",
+  "run": "npm run dev",
+  "entrypoint": "src/main.jsx",
+  "hidden": [".config", "package-lock.json"],
+  "audio": false,
+  "packager": {
+    "language": "nodejs",
+    "features": {
+      "packageSearch": true,
+      "guessImports": true
+    }
+  },
+  "languages": {
+    "javascript": {
+      "packageSearch": true,
+      "guessImports": true
+    }
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "nix": {
+    "channel": "stable-22_11"
+  }
+}
+
